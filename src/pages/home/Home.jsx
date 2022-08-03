@@ -1,19 +1,19 @@
-import Header from "../../Header/Header";
-import Posts from "../../posts/Posts";
-import Sidebar from "../../sidebar/Sidebar";
+import { useLocation } from "react-router";
+import Header from "../../pages/home/Home";
+import Posts from "../../components/posts/Posts";
+import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.css";
 
-export default function Home() {
-    return (
-        <>
-            <Header />
-            <div className="home">
-           <Posts />
-           <Sidebar />
-            </div>
-        </>
-            
-           
-        
-    );
+export default function Homepage() {
+  const location = useLocation();
+  console.log(location);
+  return (
+    <>
+      <Header />
+      <div className="home">
+        <Posts />
+        <Sidebar />
+      </div>
+    </>
+  );
 }
