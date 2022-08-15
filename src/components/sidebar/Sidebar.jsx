@@ -5,10 +5,12 @@ export default function Sidebar() {
         <div className="sidebar">
             <div className="sidebarItem">
                 <span className="sidebarTitle">ABOUT ME</span>
-                <img src="https://images.pexels.com/photos/13008665/pexels-photo-13008665.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="" />
+                <img src="https://images.pexels.com/photos/7429230/pexels-photo-7429230.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
                     <p>
-                    Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-                    amet ex esse.Sunt eu ut nostrud id quis proident.
+                    “I'm part of the design team at [company name]”
+                    “I'm one ofthe designers working on [project name]”
+                    “I'm a designer working on the [feature name] for [product name]”
+                    “I'm responsible for the design side of things in this project we're discussing today”
                     </p>
             </div>
             <div className="sidebarItem">
@@ -17,8 +19,7 @@ export default function Sidebar() {
                     <li className="sidebarListItem">Life</li>
                     <li className="sidebarListItem">Music</li>
                     <li className="sidebarListItem">Sport</li>
-                    <li className="sidebarListItem">Tech</li>
-                    <li className="sidebarListItem">Cinema</li>
+  
                 </ul>
             </div>
             <div className="sidebarItem">
@@ -26,6 +27,7 @@ export default function Sidebar() {
             <div className="sidebarSocial">
                 <i className="sidebarIcon fab fa-facebook-square"></i>
                 <i className="sidebarIcon  fab fa-instagram-square"></i>
+                <i className="sidebarIcon fa-brands fa-pinterest"></i>
             </div>
             </div>
         </div>

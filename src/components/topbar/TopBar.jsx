@@ -1,4 +1,5 @@
 import "./topbar.css";
+import { Link } from "react-router-dom";
 
 export default function TopBar() {
     return (
@@ -6,18 +7,20 @@ export default function TopBar() {
             <div className="topLeft">
                 <i className="topIcon fab fa-facebook-square"></i>
                 <i className="topIcon fab fa-instagram-square"></i>
+                <i class="topIcon fa-brands fa-pinterest"></i>
             </div>
             <div className="topCenter">
                 <ul className="topList">
-                    <li className="topListItem">HOME</li>
-                    <li className="topListItem">ABOUT</li>
-                    <li className="topListItem">CONTACT</li>
-                    <li className="topListItem">WRITE</li>
-                    <li className="topListItem">LOGOUT</li>
+                    <Link to="/">HOME</Link>
+                    <Link to="/about">ABOUT</Link>
+                    <Link to="/contact">CONTACT</Link>
+                    <Link to="/logout">LOGOUT</Link>
+
+                  
                 </ul>
             </div>
             <div className="topRight">
-                <img className="topImg" src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=""/>
+                <img className="topImg" src="https://avatars.githubusercontent.com/u/57522837?s=96&v=4" alt=""/>
                 <i className="topSearchIcon fas fa-search"></i>
             </div>
         </div>
