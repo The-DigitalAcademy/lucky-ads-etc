@@ -23,12 +23,12 @@ export default function Sidebar() {
                 </ul>
             </div>
             <div className="sidebarItem">
-            <span className="sidebarTitle">FOLLOW US</span>
+            {/* <span className="sidebarTitle">FOLLOW US</span>
             <div className="sidebarSocial">
                 <i className="sidebarIcon fab fa-facebook-square"></i>
                 <i className="sidebarIcon  fab fa-instagram-square"></i>
                 <i className="sidebarIcon fa-brands fa-pinterest"></i>
-            </div>
+            </div> */}
             </div>
         </div>
     );

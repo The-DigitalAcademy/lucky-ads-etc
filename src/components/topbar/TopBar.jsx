@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export default function TopBar() {
     return (
         <div className="top">
-            <div className="topLeft">
+            {/* <div className="topLeft">
                 <i className="topIcon fab fa-facebook-square"></i>
                 <i className="topIcon fab fa-instagram-square"></i>
-                <i class="topIcon fa-brands fa-pinterest"></i>
-            </div>
+                
+            </div> */}
             <div className="topCenter">
                 <ul className="topList">
                     <Link to="/">HOME</Link>
