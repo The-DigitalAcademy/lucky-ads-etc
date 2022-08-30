@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lucky-ads-etc/static/css/main.362cb46c.css",
-    "main.js": "/lucky-ads-etc/static/js/main.e88bbd61.js",
+    "main.css": "/lucky-ads-etc/static/css/main.31057ad4.css",
+    "main.js": "/lucky-ads-etc/static/js/main.21a71eca.js",
     "index.html": "/lucky-ads-etc/index.html",
-    "main.362cb46c.css.map": "/lucky-ads-etc/static/css/main.362cb46c.css.map",
-    "main.e88bbd61.js.map": "/lucky-ads-etc/static/js/main.e88bbd61.js.map"
+    "main.31057ad4.css.map": "/lucky-ads-etc/static/css/main.31057ad4.css.map",
+    "main.21a71eca.js.map": "/lucky-ads-etc/static/js/main.21a71eca.js.map"
   },
   "entrypoints": [
-    "static/css/main.362cb46c.css",
-    "static/js/main.e88bbd61.js"
+    "static/css/main.31057ad4.css",
+    "static/js/main.21a71eca.js"
   ]
 }
