@@ -8,7 +8,7 @@
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    url("https://images.unsplash.com/photo-1524668951403-d44b28200ce0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwyNDQ5MTEyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .registerLoginButton {
-  position: absolute;
+  position: bottom;
   top: 60px;
   right: 20px;
   background-color: lightcoral;
@@ -58,4 +58,5 @@
   border: none;
   color: white;
   border-radius: 10px;
+  
 }

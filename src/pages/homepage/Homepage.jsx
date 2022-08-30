@@ -13,6 +13,8 @@ export default function Homepage() {
       <div className="home">
         <Posts />
         <Sidebar />
+        
+        
       </div>
     </>
   );

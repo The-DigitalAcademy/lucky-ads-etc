@@ -3,17 +3,17 @@ import "./register.css"
 export default function Register() {
   return (
     <div className="register">
-      <span className="registerTitle">Register</span>
+      <span className="registerTitle">Contact us</span>
       <form className="registerForm">
-        <label>Username</label>
-        <input className="registerInput" type="text" placeholder="Enter your username..." />
-        <label>Email</label>
-        <input className="registerInput" type="text" placeholder="Enter your email..." />
-        <label>Password</label>
-        <input className="registerInput" type="password" placeholder="Enter your password..." />
-        <button className="registerButton">Register</button>
+        <label>Phone</label><label>0791549886</label>
+        <br></br>
+        <label>Address</label><label>lucky@noaps.org</label>
+        <br></br>
+        <label>location</label><label>1234 Roodepoort1765</label>
+        <br></br>
       </form>
-      <button className="registerLoginButton">Login</button>
+      
     </div>
   ); 
 }
+
