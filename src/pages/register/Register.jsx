@@ -4,6 +4,7 @@ export default function Register() {
   return (
     <div className="register">
       <span className="registerTitle">Contact us</span>
+      <span className="registerTitle">The arts</span>
       <form className="registerForm">
         <label>Phone</label><label>0791549886</label>
         <br></br>

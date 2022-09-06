@@ -22,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Register />} />
         <Route path="/about" element={<Sidebar />} />
         <Route path="/Settings" element={<Settings />} />
+        
         <Route path="/Post/:postId" element={<Single />} />
         
       </Routes>

@@ -11,8 +11,10 @@ export default function Sidebar() {
           alt=""
         />
         <p>
-          Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-          amet ex esse.Sunt eu ut nostrud id quis proident.
+        Why do you make this kind of art? Whether it’s a certain medium or technique you love using, 
+        or why you chose the human figure over landscapes, 
+        tell your audience! People came to your page for a reason–they love your artwork. 
+        Make them fall in love even more by sharing why you are excited about your work, too.
         </p>
       </div>
       <div className="sidebarItem">

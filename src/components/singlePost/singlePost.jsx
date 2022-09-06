@@ -20,7 +20,6 @@ export default function SinglePost() {
         </h1>
         <div className="singlePostInfo">
           <span>
-           
             <b className="singlePostAuthor">
               <h1>The arts</h1>
             </b>

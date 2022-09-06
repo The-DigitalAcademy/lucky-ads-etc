@@ -12,14 +12,14 @@ export default function Post({img}) {
       <div className="postInfo">
         <span className="postTitle">
           <Link to="/post/Abc" className="/posts?title">
-           Art
+          <button onClick={img}>art</button>
           </Link>
         </span>
         <hr />
         <span className="postDate">Advertised</span>
       </div>
-      <p className="postDesc">
-       And so I set my mind to wonder eternal a land i thought a dream.
+      <p className="postDesc/">
+        And so I set my mind to wonder eternal a land i thought a dream.
       </p>
     </div>
     
