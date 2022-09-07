@@ -19,7 +19,7 @@ export default function Post({img}) {
         <span className="postDate">Advertised</span>
       </div>
       <p className="postDesc/">
-        And so I set my mind to wonder eternal a land i thought a dream.
+        And so I set my mind to wonder eternal a land i thought a dream.art
       </p>
     </div>
     
