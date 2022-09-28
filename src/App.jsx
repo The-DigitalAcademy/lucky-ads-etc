@@ -8,6 +8,8 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import { Routes, Route } from "react-router-dom";
 
+
+
 function App() {
   const currentUser = true;
   return (
@@ -22,7 +24,6 @@ function App() {
         <Route path="/contact" element={<Register />} />
         <Route path="/about" element={<Sidebar />} />
         <Route path="/Settings" element={<Settings />} />
-        
         <Route path="/Post/:postId" element={<Single />} />
         
       </Routes>
