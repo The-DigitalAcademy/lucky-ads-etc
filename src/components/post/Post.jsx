@@ -13,6 +13,7 @@ export default function Post({img}) {
       <div className="postInfo">
         <span className="postTitle">
           <Link to="/post/Abc" className="/posts?title">
+          <button onClick={img}>Art</button>
           </Link>
         </span>
         <hr />
