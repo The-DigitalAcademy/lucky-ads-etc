@@ -14,6 +14,7 @@ export default function Write() {
             <i className="writeIcon fas fa-plus"></i>
           </label>
           <input id="fileInput" type="file" style={{ display: "none" }} />
+          <button onClick={img}>Art</button>
           <input
             className="writeInput"
             placeholder="Title"
