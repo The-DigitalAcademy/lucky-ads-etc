@@ -14,9 +14,7 @@ export default function Homepage() {
       
         <Posts />
         <Sidebar />
-        
-        
-        
+    
       </div>
     </>
   );
